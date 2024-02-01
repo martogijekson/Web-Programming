@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Pelanggan</title>
+    </head>
+    <body>
+        <div class="main">
+            <form action>
+                <table style="margin: auto;border: 2px solid black; padding: 0px 10px 30px 20px; width: 48%; height: 300px; ">
+                    <tr>
+                        <th colspan="5"><h2>Input Data Pelanggan</h2></th>
+                    </tr>
+                    <tr>
+                        <td><label for="ID">ID Pelanggan</label></td>
+                        <td colspan="2"><Input type="text" name="ID" style="width:80px;" /> </td>
+                    </tr>
+                    <tr>
+                        <td width="125"> <LABEl for="nama">Nama Pelanggan</LABEl></td>
+                        <td colspan="2"><Input type="text" name="nama" style="width:200px;" /> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat</label></td>
+                        <td width="145" colspan="4"><textarea name="alamat" id="alamat" style="width:450px;"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="No.Handphone">Handphone</label></td>
+                        <td> <input type="text" name="No.Handphone" id="No.Handphone"/></td>
+                        <td ">*) diawali dengan +62 (contoh +62818034567890)</td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td>
+                            <input type="radio" name="sex" id="male" checked>Laki-laki
+                            <input type="radio" name="sex" id="female">Perempuan<br /> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="pekerjaan">Pekerjaan</label></td>
+                        <td>
+                            <select name="pekerjaan" id="pekerjaan">
+                                <option>Pengusaha</option>
+                                <option>Dosen</option>
+                                <option>Karyawan Swasta</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit" value="Submit"/>
+                        <input type="submit" value="Reset"/> </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

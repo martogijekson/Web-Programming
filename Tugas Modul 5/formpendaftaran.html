@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Pendaftaran Mahasiswa Baru</title>
+  </head>
+  <body>
+    <h2>Form Pendaftaran Mahasiswa Baru</h2>
+    <form action="proses.php" method="POST">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required /><br /><br />
+
+      <label for="tempat_lahir">Tempat Lahir:</label>
+      <input
+        type="text"
+        id="tempat_lahir"
+        name="tempat_lahir"
+        required
+      /><br /><br />
+
+      <label for="tanggal_lahir">Tanggal Lahir (dd-mm-yyyy):</label>
+      <input
+        type="text"
+        id="tanggal_lahir"
+        name="tanggal_lahir"
+        pattern="\d{2}-\d{2}-\d{4}"
+        placeholder="dd-mm-yyyy"
+        required
+      /><br /><br />
+
+      <label for="alamat">Alamat Rumah:</label>
+      <textarea id="alamat" name="alamat" rows="4" required></textarea
+      ><br /><br />
+
+      <label>Jenis Kelamin:</label>
+      <input
+        type="radio"
+        id="pria"
+        name="jenis_kelamin"
+        value="Pria"
+        required
+      />
+      <label for="pria">Pria</label>
+      <input
+        type="radio"
+        id="wanita"
+        name="jenis_kelamin"
+        value="Wanita"
+        required
+      />
+      <label for="wanita">Wanita</label><br /><br />
+
+      <label for="asal_sekolah">Asal Sekolah:</label>
+      <input
+        type="text"
+        id="asal_sekolah"
+        name="asal_sekolah"
+        required
+      /><br /><br />
+
+      <label for="nilai_uan">Nilai UAN:</label>
+      <input type="text" id="nilai_uan" name="nilai_uan" required /><br /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

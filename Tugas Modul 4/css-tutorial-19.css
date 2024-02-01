@@ -1,0 +1,41 @@
+#header {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #CCCCCC;
+}
+
+#footer {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #CCCCCC;
+}
+
+#navigasi {
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    background: yellow;
+}
+
+#isi {
+    width: 810px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.gambar {
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#isi p {
+    margin-top: 0px;
+    text-align: justify;
+    line-height: 20px;
+}
